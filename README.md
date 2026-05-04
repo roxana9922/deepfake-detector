@@ -82,6 +82,7 @@ The full datasets are **not included** in this repository due to size and licens
 The final model uses **EfficientNet-B0** with ImageNet-pretrained weights as the CNN-based feature extractor.
 
 EfficientNet-B0 was selected because it provides a practical balance between classification performance and computational cost. This was important because the project was completed under undergraduate hardware and time constraints.
+The screenshots folder contains evidence of the Streamlit demonstration interface running successfully.
 
 | Parameter | Value |
 |---|---|
