@@ -96,7 +96,6 @@ The screenshots folder contains evidence of the Streamlit demonstration interfac
 | Batch size | 32 |
 | Loss function | Binary cross-entropy |
 | Early stopping | Enabled |
-
 ---
 
 ## Results
