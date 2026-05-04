@@ -1,9 +1,8 @@
-
 tensorflow
+keras
 numpy
-pandas
+opencv-python
 matplotlib
 scikit-learn
-opencv-python
-Pillow
+pillow
 streamlit
