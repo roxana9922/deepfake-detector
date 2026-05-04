@@ -8,6 +8,8 @@ The project investigates whether an explainable AI-based deepfake detection syst
 
 The focus of the project is not only classification accuracy, but also robustness, dataset bias, explainability, generalisation risk, and the limitations of deploying deepfake detectors in realistic cybersecurity scenarios.
 
+This is important in cybersecurity because deepfakes can be used for social engineering, identity impersonation, fraud, misinformation and reputational harm. A detection system can support analysts by flagging suspicious media, but incorrect predictions can also create risk. For this reason, the project evaluates not only accuracy, but also false positives, false negatives, explainability and whether the system should be trusted only as human decision-support.
+
 ## Project Title
 
 **Explainable Deepfake Detection for Cybersecurity: Evaluating Robustness, Explainability and Generalisation Risk in AI Media Forensics**
