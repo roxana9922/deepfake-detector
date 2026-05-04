@@ -172,6 +172,54 @@ In the current prototype, these sections demonstrate how the trained EfficientNe
 
 The prototype also includes a clear warning that the output should be reviewed by a human and should not be treated as a final decision.
 
+## Screenshots
+
+The screenshots folder contains evidence of the Streamlit demonstration interface running successfully.
+
+Current screenshots included:
+
+- `upload_interface.png` – shows the image upload interface and uploaded image.
+- `prediction_demo.png` – shows the prediction and Grad-CAM explanation sections of the Streamlit prototype.
+
+These screenshots demonstrate that the project includes a working software artefact and not only a written report.
+
+## How to Run the Demonstration
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/roxana9922/deepfake-detector.git
+cd deepfake-detector
+
+
+2. Install the required dependencies:  pip install -r requirements.txt
+
+3. Run the Streamlit demonstration:  streamlit run app.py
+
+4. Open the local URL shown in the terminal, usually: http://localhost:8501
+ 
+
+##  Limitations
+
+This repository represents a research prototype rather than a production-ready detector. The Streamlit interface demonstrates the intended workflow and user interaction, but the current demonstrator should not be used for real-world decision-making.
+
+The model achieved moderate performance and still produced false positives and false negatives. This means the system should only support human review and should not be treated as legal, forensic or autonomous evidence.
+
+The full datasets and trained model files are not included because of size, licensing and privacy considerations.
+
+
+##  Ethical and Security Considerations
+
+Facial images can contain sensitive biometric information, so the project avoids including full datasets or unnecessary personal image data in the repository. The prototype is designed for demonstration and evaluation only.
+
+The system should not be used to make final decisions about whether a person, image or identity is genuine. Incorrect predictions could cause reputational harm, missed threats or unnecessary investigation. Human review remains essential.
+
+
+##  Project Status
+
+This repository supports the final year project submission. It contains the main implementation files, demonstration interface, evidence folders and documentation needed to show the development of the deepfake detection prototype.
+
+
 ---
 
 ## Repository Structure
