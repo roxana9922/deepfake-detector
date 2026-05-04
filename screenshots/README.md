@@ -15,4 +15,4 @@ The screenshots should show the user interface, the uploaded image, the predicti
 
 This helps demonstrate that the project includes a working software artefact, not only a written report.
 
-The screenshots folder provides evidence that the Streamlit demonstration artefact runs successfully. The interface allows a face image to be uploaded and displays the uploaded image, prediction section, and Grad-CAM explanation section. This demonstrates that the project includes a working software prototype rather than only a written report.
+
