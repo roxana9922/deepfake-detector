@@ -191,7 +191,6 @@ These screenshots demonstrate that the project includes a working software artef
 git clone https://github.com/roxana9922/deepfake-detector.git
 cd deepfake-detector
 
-
 2. Install the required dependencies:  pip install -r requirements.txt
 
 3. Run the Streamlit demonstration:  streamlit run app.py
@@ -224,6 +223,10 @@ This repository supports the final year project submission. It contains the main
 
 ## Repository Structure
 
+````markdown
+## Repository Structure
+
+```text
 deepfake-detector/
 │
 ├── README.md
