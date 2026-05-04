@@ -177,34 +177,26 @@ The prototype also includes a clear warning that the output should be reviewed b
 
 ## Repository Structure
 
-```text
 deepfake-detector/
 │
 ├── README.md
 ├── requirements.txt
+├── app.py
+├── train.py
+├── evaluate.py
+├── predict.py
+├── gradcam.py
+│
+├── documentation/
+│   └── Supporting project documentation and written evidence
 │
 ├── notebooks/
-│   ├── data_preparation.ipynb
-│   ├── model_training.ipynb
-│   ├── evaluation.ipynb
-│   └── gradcam_explainability.ipynb
+│   └── Development and experimental notebook evidence
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── train_model.py
-│   ├── evaluate_model.py
-│   ├── gradcam.py
-│   └── app.py
+├── outputs/
+│   └── Evaluation outputs, results and generated evidence
 │
-├── models/
-│   └── README.md
-│
-├── screenshots/
-│   ├── training_evidence.png
-│   ├── evaluation_metrics.png
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│   └── gradcam_example.png
-│
-└── docs/
-    └── project_report_summary.pdf
+└── screenshots/
+    ├── upload_interface.png
+    ├── prediction_demo.png
+    └── README.md
