@@ -190,15 +190,29 @@ These screenshots demonstrate that the project includes a working software artef
 ```bash
 git clone https://github.com/roxana9922/deepfake-detector.git
 cd deepfake-detector
+```
 
-2. Install the required dependencies:  pip install -r requirements.txt
+2. Install the required dependencies:
 
-3. Run the Streamlit demonstration:  streamlit run app.py
+```bash
+pip install -r requirements.txt
+```
 
-4. Open the local URL shown in the terminal, usually: http://localhost:8501
- 
+3. Run the Streamlit demonstration:
 
-##  Limitations
+```bash
+streamlit run app.py
+```
+
+4. Open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## Limitations
 
 This repository represents a research prototype rather than a production-ready detector. The Streamlit interface demonstrates the intended workflow and user interaction, but the current demonstrator should not be used for real-world decision-making.
 
@@ -206,24 +220,22 @@ The model achieved moderate performance and still produced false positives and f
 
 The full datasets and trained model files are not included because of size, licensing and privacy considerations.
 
+---
 
-##  Ethical and Security Considerations
+## Ethical and Security Considerations
 
 Facial images can contain sensitive biometric information, so the project avoids including full datasets or unnecessary personal image data in the repository. The prototype is designed for demonstration and evaluation only.
 
 The system should not be used to make final decisions about whether a person, image or identity is genuine. Incorrect predictions could cause reputational harm, missed threats or unnecessary investigation. Human review remains essential.
 
+---
 
-##  Project Status
+## Project Status
 
 This repository supports the final year project submission. It contains the main implementation files, demonstration interface, evidence folders and documentation needed to show the development of the deepfake detection prototype.
 
-
 ---
 
-## Repository Structure
-
-````markdown
 ## Repository Structure
 
 ```text
@@ -250,3 +262,4 @@ deepfake-detector/
     ├── upload_interface.png
     ├── prediction_demo.png
     └── README.md
+```
