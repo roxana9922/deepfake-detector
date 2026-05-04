@@ -91,7 +91,7 @@ The screenshots folder contains evidence of the Streamlit demonstration interfac
 | Classification task | Binary classification |
 | Optimiser | Adam |
 | Learning rate | 0.0001 |
-| Batch size | 16 |
+| Batch size | 32 |
 | Loss function | Binary cross-entropy |
 | Early stopping | Enabled |
 
@@ -164,7 +164,6 @@ Grad-CAM is therefore treated as an **interpretation and debugging tool**, not a
 
 ## Demonstration Artefact
 
-Demonstration Artefact
 
 A lightweight Streamlit demonstration interface was developed to show how the proposed system could be used by a user or analyst. The interface allows a facial image to be uploaded and displays the uploaded image alongside sections for prediction output and Grad-CAM explanation.
 
