@@ -164,15 +164,13 @@ Grad-CAM is therefore treated as an **interpretation and debugging tool**, not a
 
 ## Demonstration Artefact
 
-A lightweight demonstration interface was developed to show how the system could be used by a user or analyst. The interface allows an image to be uploaded and is designed to display:
+Demonstration Artefact
 
-- the uploaded image
-- the real/fake prediction
-- the confidence score
-- the Grad-CAM heatmap
-- a warning that the result should be reviewed by a human
+A lightweight Streamlit demonstration interface was developed to show how the proposed system could be used by a user or analyst. The interface allows a facial image to be uploaded and displays the uploaded image alongside sections for prediction output and Grad-CAM explanation.
 
-The demonstrator is a research prototype and is not intended for production or high-stakes decision-making.
+In the current prototype, these sections demonstrate how the trained EfficientNet-B0 prediction and Grad-CAM explanation would be presented to the user. The demonstrator is therefore used as evidence of the intended workflow, interface design and user interaction, rather than as a production-ready deployment system.
+
+The prototype also includes a clear warning that the output should be reviewed by a human and should not be treated as a final decision.
 
 ---
 
